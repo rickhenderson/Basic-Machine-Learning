@@ -8,3 +8,9 @@ Example of Arcerous vs. Non-Arcerous using a horse as a target and providing num
 * We determine features of music, and then we take a person's interest as Like or Dislike.
 * Use a **scatterplot**
 
+## Stanley Terrain Classificiation
+* Features: steepness (grade) and bumpiness
+* Using scatter plots
+** Make predictions of new points when viewing a dataset
+* Decision Surfaces
+

@@ -13,4 +13,5 @@ Example of Arcerous vs. Non-Arcerous using a horse as a target and providing num
 * Using scatter plots
 ** Make predictions of new points when viewing a dataset
 * Decision Surfaces
+** A **decision surface** separates one class from another so we can generalize to new data points.
 

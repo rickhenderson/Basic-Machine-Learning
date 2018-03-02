@@ -11,11 +11,11 @@ Example of Arcerous vs. Non-Arcerous using a horse as a target and providing num
 ## Stanley Terrain Classificiation
 * Features: steepness (grade) and bumpiness
 * Using scatter plots
-** Make predictions of new points when viewing a dataset
+  * Make predictions of new points when viewing a dataset
 * Decision Surfaces
-** A **decision surface** separates one class from another so we can generalize to new data points.
-** linear decision surface
-** Exercise: Given a set of data points (two classes of points) and 3 possible linear decision surfaces, have the students choose the most reasonable decision surface to help classify new points into either class
+  * A **decision surface** separates one class from another so we can generalize to new data points.
+  * linear decision surface
+  * Exercise: Given a set of data points (two classes of points) and 3 possible linear decision surfaces, have the students choose the most reasonable decision surface to help classify new points into either class
 
 > "A **machine learning algorithm** takes in data and transforms it into a **decision surface**." - Sabastian Thrun
 

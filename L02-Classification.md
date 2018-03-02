@@ -31,6 +31,7 @@ Example of Arcerous vs. Non-Arcerous using a horse as a target and providing num
    from sklearn.naive_bayes import GaussianNB
    clf = GaussianNB()
    clf.fit(*features*, *labels*)
+   print(clf.predict(*x1*, *y1*))
   ```
   
 

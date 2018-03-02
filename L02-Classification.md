@@ -27,10 +27,10 @@ Example of Arcerous vs. Non-Arcerous using a horse as a target and providing num
   * Contains lots of sample code you can start with
   * Use the GaussianNB module to create a **classifier**
   * Call the `fit()` function on your classifier to *train* the classifier on the training data. In that example, X are the **features**, Y are the **labels**. They are Python lists of ordered pairs.
-  `
+  ```
    from sklearn.naive_bayes import GaussianNB
    clf = GaussianNB()
    clf.fit(*features*, *labels*)
-  `
+  ```
   
 

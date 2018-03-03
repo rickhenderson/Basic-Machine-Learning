@@ -43,5 +43,11 @@ Example of Arcerous vs. Non-Arcerous using a horse as a target and providing num
   from sklearn.metrics import accuracy_score
   print accuracy_score(pred, labels_test)
   ```
-  
+## Training and Testing Data
+It is important that you train and test on 2 different sets of data. Otherwise you run the risk of **overtraining** your model and results using other data will not be accurate. Your model will not be able to generalize.
+
+* Save 10% of your data for your testing set.
+
+# Bayes Rule
+
 

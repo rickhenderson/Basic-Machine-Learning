@@ -33,5 +33,9 @@ Example of Arcerous vs. Non-Arcerous using a horse as a target and providing num
    clf.fit(*features*, *labels*)
    print(clf.predict(*x1*, *y1*))
   ```
+  ## Accuracy
+  After our classification algorithm runs and creates/plots a decision surface, we can measure or quantify how well the classifier did it's job. We can measure the accuracy of the classifier.
+  
+  This can be done with `sklearn` using the `score(X, y)` method as explained on the <a href="http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html#sklearn.naive_bayes.GaussianNB.score">sklearn webpage</a>.
   
 

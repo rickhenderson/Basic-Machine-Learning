@@ -52,3 +52,34 @@ It is important that you train and test on 2 different sets of data. Otherwise y
 Bayes Rule is the holy grail of **probablistic inference**. 
 A brief discussion on probability, **sensitivity** of a test and the **specificty** <a href="https://en.wikipedia.org/wiki/Sensitivity_and_specificity">of a test</a>.
 
+**Prior probability**: Probability before you run a test.
+**Posterior probability**: Prior probabilty + evidence.
+
+##Example
+Imagine the chance of having cancer being 1% and the chance that a certain test can detect it is 90% if it exists.
+
+Prior: P(C) = 0.01 or 1% - Probabilty of having cancer
+       P(Neg|!C) = 0.9, P(Pos|!C) = 0.01 * 0.9 = 0.009
+Posterior: P(C|Pos) = P(C) DOT P(Pos|C)
+           P(!C|Pos) = P(!C) DOT P(Pos|!C)
+                     = 0.99 * 0.1
+                     = 0.099
+                     
+Normalize by adding the two values together.
+
+Again: Posterior probalities require dividing by the *total* probability to normalize them.
+See example of Chris and Sara regarding emails.
+
+It's called **Naive Bayes** because it ignores word order.
+
+Supervised Learning Algorithm
+
+Why choose Naive Bayes?
+* Easy to implement
+* Quite efficient
+
+Cons:
+* Phrases with difference meanings
+         
+           
+           

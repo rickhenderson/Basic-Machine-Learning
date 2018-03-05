@@ -49,5 +49,6 @@ It is important that you train and test on 2 different sets of data. Otherwise y
 * Save 10% of your data for your testing set.
 
 # Bayes Rule
-
+Bayes Rule is the holy grail of **probablistic inference**. 
+A brief discussion on probability, **sensitivity** of a test and the **specificty** <a href="https://en.wikipedia.org/wiki/Sensitivity_and_specificity">of a test</a>.
 
